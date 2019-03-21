@@ -16,7 +16,7 @@ pip3 install -r requirement.txt
 
 ```shell
 # 执行测试
-python3 runner.py SCRIPT_DIR
+python3 runner.py SCRIPT_DIR --device Android:///UDID
 
 # 生成报告
 python3 report.py LOG_DIR

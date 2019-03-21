@@ -11,7 +11,8 @@
 ```shell
 pip3 install -r requirement.txt
 ```
-
+> 执行 iOS 的测试应先下载并配置 [iOS-Tagent](https://github.com/AirtestProject/IOS-Tagent) 并启动代理$ brew install libimobiledevice
+$ iproxy 8100 8100 
 - 命令
 
 ```shell

@@ -16,12 +16,13 @@ pip3 install -r requirement.txt
 
 ```shell
 # 执行测试
-python3 runner.py SCRIPT_DIR --device Android:///UDID
+python3 runner_for_iOS.py SCRIPT_DIR --device Android:///UDID
+python3 runner.py SCRIPT_DIR --device iOS:///127.0.0.1:8100
 
 # 生成报告
 python3 report.py LOG_DIR
 ```
-- 用例文件夹需要以“用例集”结尾才能识别
+- Android 用例文件夹需要以“用例集”结尾才能识别;iOS 用例需要以"iOS用例集"结尾
 - 脚本里的业务逻辑需要封装成 runCase 方法，如下
 
 ```python

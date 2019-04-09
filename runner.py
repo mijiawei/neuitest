@@ -122,7 +122,7 @@ def run_script(parsed_args, testcase_cls=MyAirtestCase):
 
     # 获取所有用例集
     for f in os.listdir(dir):
-        if f.endswith("用例集"):
+        if f.endswith("Android用例集"):
             f = os.path.join(dir, f)
             if os.path.isdir(f):
                 suites.append(f)

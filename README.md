@@ -17,8 +17,8 @@ $ iproxy 8100 8100
 
 ```shell
 # 执行测试
-python3 runner_for_iOS.py SCRIPT_DIR --device Android:///UDID
-python3 runner.py SCRIPT_DIR --device iOS:///127.0.0.1:8100
+python3 runner.py SCRIPT_DIR --device Android:///UDID
+python3 runner_for_iOS.py SCRIPT_DIR --device iOS:///127.0.0.1:8100
 
 # 生成报告
 python3 report.py LOG_DIR
